@@ -17,9 +17,9 @@ the three waves of its [Ethiopia Socioeconomic Survey
 (ESS)](http://surveys.worldbank.org/lsms/programs/integrated-surveys-agriculture-ISA/ethiopia).
 The surveys were conducted in the following years:
 
-	- __Wave 1:__ 2011-12
-	- __Wave 2:__ 2013-14
-	- __Wave 3:__ 2015-16
+* __Wave 1:__ 2011-12
+* __Wave 2:__ 2013-14
+* __Wave 3:__ 2015-16
 
 ## Nigeria-GHSP.zip
 
@@ -29,9 +29,9 @@ during the three waves of its [General Household Survey
 Panel](http://surveys.worldbank.org/lsms/programs/integrated-surveys-agriculture-ISA/nigeria).
 The data was collected in the following years:
 
-	- __Wave 1:__ 2010-11
-	- __Wave 2:__ 2012-13
-	- __Wave 3:__ 2015-16
+* __Wave 1:__ 2010-11
+* __Wave 2:__ 2012-13
+* __Wave 3:__ 2015-16
 
 ## Tanzania-TNPS.zip
 
@@ -41,7 +41,7 @@ three waves of its [Tanzania National Panel Survey (TZNPS)](
 surveys.worldbank.org/lsms/programs/integrated-surveys-agriculture-ISA/tanzania).
 The data was collected in the following years:
 
-	- __Wave 1:__ 2008-09
-	- __Wave 2:__ 2010-11
-	- __Wave 3:__ 2012-13
-	- __Wave 4:__ 2014-15
+* __Wave 1:__ 2008-09
+* __Wave 2:__ 2010-11
+* __Wave 3:__ 2012-13
+* __Wave 4:__ 2014-15
