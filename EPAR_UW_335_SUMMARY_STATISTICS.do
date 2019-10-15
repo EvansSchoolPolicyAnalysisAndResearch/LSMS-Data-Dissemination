@@ -1702,12 +1702,6 @@ foreach instrument of global list_instruments {
 		gen Instrument="Ethiopia ESS Wave 1"	
 		gen Year="2011-12"
 	}
-	if "`instrument'"=="Ethiopia_ACC" { 
-		gen Geography="Ethiopia" 
-		gen Survey="AgDev Baseline"
-		gen Instrument="Ethiopia ACC Baseline"	
-		gen Year="2016"
-	}
 	if "`instrument'"=="Nigeria_GHS_W3" { 
 		gen Geography="Nigeria" 
 		gen Survey="LSMS-ISA"
@@ -1725,42 +1719,6 @@ foreach instrument of global list_instruments {
 		gen Survey="LSMS-ISA"
 		gen Instrument="Nigeria GHS Wave 1"	
 		gen Year="2008-09"
-	}
-	if "`instrument'"=="Nigeria_AgDev_S6" { 
-		gen Geography="Nigeria - Katsina" 
-		gen Survey="AgDev Baseline"
-		gen Instrument="Nigeria NIBAS AgDev"	
-		gen Year="2016"
-	}
-	if "`instrument'"=="Nigeria_AgDev_S5" { 
-		gen Geography="Nigeria - Kano" 
-		gen Survey="AgDev Baseline"
-		gen Instrument="Nigeria NIBAS AgDev"	
-		gen Year="2016"
-	}
-	if "`instrument'"=="Nigeria_AgDev_S4" { 
-		gen Geography="Nigeria - Niger" 
-		gen Survey="AgDev Baseline"
-		gen Instrument="Nigeria NIBAS AgDev"	
-		gen Year="2016"
-	}
-	if "`instrument'"=="Nigeria_AgDev_S3" { 
-		gen Geography="Nigeria - Kaduna" 
-		gen Survey="AgDev Baseline"
-		gen Instrument="Nigeria NIBAS AgDev"	
-		gen Year="2016"
-	}
-	if "`instrument'"=="Nigeria_AgDev_S2" { 
-		gen Geography="Nigeria - Benue" 
-		gen Survey="AgDev Baseline"
-		gen Instrument="Nigeria NIBAS AgDev"	
-		gen Year="2016"
-	}
-	if "`instrument'"=="Nigeria_AgDev_S1" { 
-		gen Geography="Nigeria - Nassarawa" 
-		gen Survey="AgDev Baseline"
-		gen Instrument="Nigeria NIBAS AgDev"	
-		gen Year="2016"
 	}
 	if "`instrument'"=="Tanzania_NPS_W4" { 
 		gen Geography="Tanzania" 
@@ -1785,54 +1743,6 @@ foreach instrument of global list_instruments {
 		gen Survey="LSMS-ISA"
 		gen Instrument="Tanzania NPS Wave 1"	
 		gen Year="2008-09"
-	}
-	if "`instrument'"=="Tanzania_AgDevz3" { 
-		gen Geography="Tanzania - Southern Highlands" 
-		gen Survey="AgDev Baseline"
-		gen Instrument="Tanzania TBS AgDev"	
-		gen Year="2016"
-	}
-	if "`instrument'"=="Tanzania_AgDevz2" { 
-		gen Geography="Tanzania - Northern Zone" 
-		gen Survey="AgDev Baseline"
-		gen Instrument="Tanzania TBS AgDev"	
-		gen Year="2016"
-	}
-	if "`instrument'"=="Tanzania_AgDevz1" { 
-		gen Geography="Tanzania - Lake Zone" 
-		gen Survey="AgDev Baseline"
-		gen Instrument="Tanzania TBS AgDev"	
-		gen Year="2016"
-	}
-	if "`instrument'"=="India_AgDev_S4" { 
-		gen Geography="India - West Bengal" 
-		gen Survey="AgDev Baseline"
-		gen Instrument="India RMS AgDev"	
-		gen Year="2016"
-	}
-	if "`instrument'"=="India_AgDev_S3" { 
-		gen Geography="India - Uttar Pradesh" 
-		gen Survey="AgDev Baseline"
-		gen Instrument="India RMS AgDev"	
-		gen Year="2016"
-	}
-	if "`instrument'"=="India_AgDev_S2" { 
-		gen Geography="India - Odisha" 
-		gen Survey="AgDev Baseline"
-		gen Instrument="India RMS AgDev"	
-		gen Year="2016"
-	}
-	if "`instrument'"=="India_AgDev_S1" { 
-		gen Geography="India - Bihar" 
-		gen Survey="AgDev Baseline"
-		gen Instrument="India RMS AgDev"	
-		gen Year="2016"
-	}
-	if "`instrument'"=="BurkinaF_EMC_W1" { 
-		gen Geography="Burkina Faso" 
-		gen Survey="Burkina Faso EMC W1"
-		gen Instrument="LSMS-ISA"	
-		gen Year="2014"
 	}
 	order Geography Survey Instrument Year indicatorcategory indicatorname units commoditydisaggregation genderdisaggregation hhfarmsizedisaggregation ruraltotalpopulation subpopulationforestimate currencyconversion levelofindicator weight variablenameinthedtafile mean semean_strata sd p25 p50 p75 min max N 
 	gen N_less_30=N<30
