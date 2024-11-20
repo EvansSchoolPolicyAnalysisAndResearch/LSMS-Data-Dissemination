@@ -58,7 +58,7 @@ The surveys were administered in the following years:
 * __Wave 3:__ 2012-13
 * __Wave 4:__ 2014-15
 * __Wave 5:__ 2020-21
-* __SDD: __ 2019-20 * NB: This the "extended panel" dataset that is a continuation of Wave 4 before the panel refresh in Wave 5. Previous releases had this release erroneously labeled as "Wave 5"
+* __SDD:__ 2019-20 * NB: This the "extended panel" dataset that is a continuation of Wave 4 before the panel refresh in Wave 5. Previous releases had this release erroneously labeled as "Wave 5"
 
 ## Malawi IHS
 
