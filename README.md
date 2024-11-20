@@ -8,7 +8,7 @@ repository as a resource for fellow researchers and decision makers.
 The data in this repository were created using the raw
 [LSMS-ISA](http://surveys.worldbank.org/lsms/programs/integrated-surveys-agriculture-ISA)
 data collected by the World Bank. The data were processed using the Stata do files in the
-[code repository] https://github.com/EvansSchoolPolicyAnalysisAndResearch/LSMS-Agricultural-Indicators-Code.
+[code repository]https://github.com/EvansSchoolPolicyAnalysisAndResearch/LSMS-Agricultural-Indicators-Code.
 Updates to the code repository are more frequent than updates to the data repository. Updates to this repository
 include the SHA of the code repository commit that was used to generate the update; using the do files from that
 snapshot and the raw data versions noted in the do file header and readme should produce identical results. 
