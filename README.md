@@ -14,8 +14,8 @@ include the SHA of the code repository commit that was used to generate the upda
 snapshot and the raw data versions noted in the do file header and readme should produce identical results. 
 
 See the spreadsheet for compiled summary statistics across all waves; these estimates are also available using our
-[AgQuery](https://www.agquery.org) tool (currently undergoing maintenance). This spreadsheet also contains summarized
-construction decisions for several indicators; see the individual wave readme files in the code repository for additional
+[AgQuery](https://www.agquery.org) tool and our more interactive AgQuery+ tool (http://v2254.host.s.uw.edu/; in beta, estimates produced from this application may vary from the estimates provided here).
+This spreadsheet also contains summarized construction decisions for several indicators; see the individual wave readme files in the code repository for additional
 detail and summaries of wave-specific challenges that we have encountered. The code table of contents provides some guidance
 if you wish to construct some indicators using your own assumptions.
 
@@ -45,6 +45,7 @@ The surveys were administered in the following years:
 * __Wave 2:__ 2012-13
 * __Wave 3:__ 2015-16
 * __Wave 4:__ 2018-19
+* __Wave 5:__ 2022-23
 
 ## Tanzania NPS
 
